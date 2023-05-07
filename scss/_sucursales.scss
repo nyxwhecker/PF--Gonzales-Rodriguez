@@ -1,0 +1,22 @@
+@import "variables";
+
+.ubicacion {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  
+    &.moron,
+    &.ramos,
+    &.san-justo,
+    &.belgrano,
+    &.san-isidro {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      text-decoration: underline $color-sucursal-text;
+      text-decoration-style: solid;
+    }
+  
+    &.belgrano {
+      text-transform: uppercase;
+    }
+  }

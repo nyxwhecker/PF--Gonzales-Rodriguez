@@ -1,0 +1,50 @@
+@import "variables";
+
+.container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #carouselExampleIndicators{
+        height: 410px;
+        width: 747px;
+    }
+}
+
+.subtitulo{
+    color: $color-index-subtitulo;
+    background-color: $fondo-index-subtitulo;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+}
+
+.presentacion{
+    color: $color-index-presentacion;
+    background-color: $fondo-index-subtitulo;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 80px;
+}
+
+.logo {
+    position: relative;
+    width: auto; // Ancho de la imagen
+    height: 65px; // Altura de la imagen
+}
+
+.main-titulo{
+    margin-top: 5px;
+    text-align: center;  
+}
+
+.container-titulo{
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    justify-content: center;
+}
