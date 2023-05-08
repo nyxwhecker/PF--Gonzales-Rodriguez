@@ -106,5 +106,13 @@ body{
       display: inline;
   }
   
- 
+  .gallery {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
 }

@@ -1,0 +1,38 @@
+.gallery {
+    display: flex;
+    justify-content:center;
+}
+
+.gallery img {
+    width: 20%;
+    border-radius:250px;
+}
+
+.img-lips, .img-partners {
+    position:relative
+}
+
+.img-lips {
+    left:30px
+}
+
+.img-partners {
+    right: 30px;
+}
+
+.img-lips:hover {
+    transform: translateX(-100px);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.img-partners:hover {
+    transform: translateX(100px);
+    transition: all 1s;
+    cursor: pointer;
+}
+
+.img-explore:hover {
+    z-index: 2;
+    transition: all 1s;
+}

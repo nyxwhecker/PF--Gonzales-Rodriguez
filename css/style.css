@@ -96,7 +96,7 @@ body {
 .direccion {
   color: rgb(101, 107, 112);
   text-align: left;
-  margin-top: 0px;
+  margin-top: 20px;
 }
 
 .copyright {
@@ -121,11 +121,51 @@ body {
   width: 747px;
 }
 
+/* ANIMACION*/
+.gallery {
+  display: flex;
+  justify-content: center;
+}
+
+.gallery img {
+  width: 20%;
+  border-radius: 250px;
+}
+
+.img-lips, .img-partners {
+  position: relative;
+}
+
+.img-lips {
+  left: 30px;
+}
+
+.img-partners {
+  right: 30px;
+}
+
+.img-lips:hover {
+  transform: translateX(-100px);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.img-partners:hover {
+  transform: translateX(100px);
+  transition: all 1s;
+  cursor: pointer;
+}
+
+.img-explore:hover {
+  z-index: 2;
+  transition: all 1s;
+}
+
 .w-100 {
   padding-left: 52px;
   padding-right: 52px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 .subtitulo {
@@ -364,6 +404,12 @@ body {
   }
   .grid-container-dos {
     display: inline;
+  }
+  .gallery {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
   }
 }
 
