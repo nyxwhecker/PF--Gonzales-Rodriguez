@@ -1,0 +1,118 @@
+/* VARIABLES */
+@import "../scss/base/variables";
+
+/* GENERAL */
+*{
+  margin: 0%;
+  padding: 0%;
+}
+
+html{
+  font-size: 16px;
+}
+
+
+ul {
+  list-style-type: none;
+}
+
+/* HEADER */
+@import "../scss/component/header";
+
+/* TÍTULOS */
+@import "../scss/base/titulos";
+
+/* BODY */
+
+body{
+  background-image: url(../images/fondo.liso.jpg.jpg)
+}
+
+/* FOOTER */
+@import "../scss/component/footer";
+
+/* INDEX */
+@import "../scss/component/index";
+
+/* INICIO SHOP */
+ @import "../scss/component/shop";
+
+/* SUCURSALES */
+@import "../scss/component/sucursales";
+
+/* ABOUT */
+@import "../scss/component/about";
+  
+/* DONATION */
+
+@import "../scss/component/donation";
+
+/* MEDIA QUERYS */
+
+ /* mobile */
+ 
+ @media screen and (max-width: 519px) {
+  .body {
+      background-color:  rgb(125, 152, 190);
+
+  }
+  
+  .header{
+      font-size: 1rem;
+      display: flex;
+    }
+
+  
+  .section {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .grid-container-dos{
+      display: inline;;
+  }
+  
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+
+  header {
+      font-size: 1.2rem;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .grid-container{   
+      display: inline;
+  }
+
+  .grid-item-a{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .grid-item-b{
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+   
+  .grid-container-dos{
+      display: inline;
+  }
+  
+  .gallery {
+    display: flex;
+    justify-content:center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+
+
+}

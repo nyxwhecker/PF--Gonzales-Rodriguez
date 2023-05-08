@@ -1,0 +1,40 @@
+@import "../base/variables";
+
+.header{
+    background-color: $color-principal;
+    width: 100%;
+    text-align: right;
+    font-size: 18px;
+    
+    .inicio{
+      color: $color-texto;
+      text-decoration: underline;
+      text-align: right;
+    }
+  
+    .tienda{
+      color: $color-texto;
+      text-decoration: underline;
+    }
+  
+    .sucursales{
+      color: $color-texto;
+      text-decoration: underline;
+    }
+  
+    .nosotros{
+      color: $color-texto;
+      text-decoration: underline;
+    }
+  
+    .donaciones{
+      color: $color-texto;
+      text-decoration: underline;
+    }
+  
+    a{
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+  
