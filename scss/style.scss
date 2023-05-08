@@ -1,5 +1,5 @@
 /* VARIABLES */
-@import "variables";
+@import "../scss/base/variables";
 
 /* GENERAL */
 *{
@@ -11,15 +11,16 @@ html{
   font-size: 16px;
 }
 
+
 ul {
   list-style-type: none;
 }
 
 /* HEADER */
-@import "header";
+@import "../scss/component/header";
 
 /* TÍTULOS */
-@import "titulos";
+@import "../scss/base/titulos";
 
 /* BODY */
 
@@ -28,20 +29,82 @@ body{
 }
 
 /* FOOTER */
-@import "footer";
+@import "../scss/component/footer";
 
 /* INDEX */
-@import "index";
+@import "../scss/component/index";
 
 /* INICIO SHOP */
- @import "shop";
+ @import "../scss/component/shop";
 
 /* SUCURSALES */
-@import "sucursales";
+@import "../scss/component/sucursales";
 
 /* ABOUT */
-@import "about";
+@import "../scss/component/about";
   
 /* DONATION */
 
-@import "donation";
+@import "../scss/component/donation";
+
+/* MEDIA QUERYS */
+
+ /* mobile */
+ 
+ @media screen and (max-width: 519px) {
+  .body {
+      background-color:  rgb(125, 152, 190);
+
+  }
+  
+  .header{
+      font-size: 1rem;
+      display: flex;
+    }
+
+  
+  .section {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .grid-container-dos{
+      display: inline;;
+  }
+  
+}
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+
+  header {
+      font-size: 1.2rem;
+    }
+
+    section {
+      display: flex;
+      flex-direction: column;
+  }
+
+  .grid-container{   
+      display: inline;
+  }
+
+  .grid-item-a{
+      margin-top: 10px;
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+
+  .grid-item-b{
+      margin-bottom: 20px;
+      margin-left: 20px;
+      margin-right: 20px;
+  }
+   
+  .grid-container-dos{
+      display: inline;
+  }
+  
+ 
+}

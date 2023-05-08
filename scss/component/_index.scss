@@ -1,4 +1,4 @@
-@import "variables";
+@import "../base/variables";
 
 .container{
     position: relative;
@@ -10,6 +10,13 @@
         height: 410px;
         width: 747px;
     }
+}
+
+.w-100{
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .subtitulo{

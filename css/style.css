@@ -1,5 +1,10 @@
 @charset "UTF-8";
-
+/* VARIABLES */
+/*index*/
+/* shop */
+/* sucursales */
+/*donaciones*/
+/*body*/
 /* GENERAL */
 * {
   margin: 0%;
@@ -15,6 +20,11 @@ ul {
 }
 
 /* HEADER */
+/*index*/
+/* shop */
+/* sucursales */
+/*donaciones*/
+/*body*/
 .header {
   background-color: rgb(125, 152, 190);
   width: 100%;
@@ -48,7 +58,11 @@ ul {
 }
 
 /* TÍTULOS */
-
+/*index*/
+/* shop */
+/* sucursales */
+/*donaciones*/
+/*body*/
 h1 {
   color: rgb(43, 11, 73);
   text-align: center;
@@ -69,7 +83,11 @@ body {
 }
 
 /* FOOTER */
-
+/*index*/
+/* shop */
+/* sucursales */
+/*donaciones*/
+/*body*/
 .redes {
   text-align: right;
   margin-top: 40px;
@@ -87,7 +105,11 @@ body {
 }
 
 /* INDEX */
-
+/*index*/
+/* shop */
+/* sucursales */
+/*donaciones*/
+/*body*/
 .container {
   position: relative;
   display: flex;
@@ -97,6 +119,13 @@ body {
 .container #carouselExampleIndicators {
   height: 410px;
   width: 747px;
+}
+
+.w-100 {
+  padding-left: 52px;
+  padding-right: 52px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .subtitulo {
@@ -137,7 +166,11 @@ body {
 }
 
 /* INICIO SHOP */
-
+/*index*/
+/* shop */
+/* sucursales */
+/*donaciones*/
+/*body*/
 .grid-container {
   display: grid;
   grid-template-rows: repeat(1, 300px);
@@ -222,7 +255,11 @@ body {
 }
 
 /* SUCURSALES */
-
+/*index*/
+/* shop */
+/* sucursales */
+/*donaciones*/
+/*body*/
 .ubicacion {
   text-align: center;
   margin-top: 50px;
@@ -249,7 +286,11 @@ body {
 }
 
 /* DONATION */
-
+/*index*/
+/* shop */
+/* sucursales */
+/*donaciones*/
+/*body*/
 .donaciones-p {
   text-align: center;
   font-size: 42px;
@@ -279,6 +320,51 @@ body {
   text-align: center;
   font-size: 28px;
   margin: 10px 80px 80px;
+}
+
+/* MEDIA QUERYS */
+/* mobile */
+@media screen and (max-width: 519px) {
+  .body {
+    background-color: rgb(125, 152, 190);
+  }
+  .header {
+    font-size: 1rem;
+    display: flex;
+  }
+  .section {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container-dos {
+    display: inline;
+  }
+}
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+  header {
+    font-size: 1.2rem;
+  }
+  section {
+    display: flex;
+    flex-direction: column;
+  }
+  .grid-container {
+    display: inline;
+  }
+  .grid-item-a {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .grid-item-b {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .grid-container-dos {
+    display: inline;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
